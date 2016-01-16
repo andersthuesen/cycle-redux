@@ -3,6 +3,7 @@
   "version": "0.0.2",
   "description": "Unofficial Redux bindings for Cycle.js.",
   "main": "index.js",
+  "files": ["lib"],
   "scripts": {
     "build": "babel -d lib src",
     "prepublish": "npm run build",
