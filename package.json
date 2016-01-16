@@ -1,6 +1,6 @@
 {
   "name": "cycle-redux",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "Unofficial Redux bindings for Cycle.js.",
   "main": "lib/index.js",
   "files": ["lib"],
