@@ -56,7 +56,7 @@ function main(sources) {
 
 
   // Merge the two action streams.
-  const state$ = increment$.merge(decrement$)
+  const action$ = increment$.merge(decrement$)
 
 
   // Create virtual DOM tree.
@@ -73,7 +73,7 @@ function main(sources) {
   // Return virtual DOM and action stream
   return {
     DOM: vtree$,
-    state: state$
+    state: action$
   }
 
 
